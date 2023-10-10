@@ -1,33 +1,63 @@
 {
-  "projects": [
+  "users": [
     {
       "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
+      "firstname": "Josh",
+      "dog": "Ragnar",
+      "hobbies": ["Surf", "Being bad at videogames"]
     },
     {
       "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
-    }
-  ],
-  "tasks": [
-    {
-      "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
-    },
-    {
-      "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
+      "firstname": "Eric",
+      "cat": false,
+      "hobbies": ["Lord of the Rings", "DnD"]
     },
     {
       "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+      "gender": "male",
+      "name": { "title": "Mr", "first": "Malthe", "last": "Johansen" },
+      "location": {
+        "city": "Samsø"
+      },
+      "email": "malthe.johansen@example.com",
+      "dob": { "date": "1970-09-10T11:46:38.901Z", "age": 53 },
+      "registered": { "date": "2009-04-06T06:14:45.219Z", "age": 14 },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/11.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/11.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/11.jpg"
+      },
+      "nat": "DK"
+    }
+  ],
+  "playSessions": [
+    {
+      "id": 1,
+      "userId": 1,
+      "game": "LoL",
+      "playTime": 0,
+      "description": "I need to try out this one so that I can lose my life and my soul"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "game": "OW",
+      "playTime": 100,
+      "description": "Finally I had a win in the end"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "game": "DnD",
+      "playTime": 600,
+      "description": "I finished my turn in Civ"
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "game": "DnD",
+      "playTime": 600,
+      "description": "I finished my turn in Civ"
     }
   ]
 }
