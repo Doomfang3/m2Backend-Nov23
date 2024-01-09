@@ -11,23 +11,6 @@
       "firstname": "Eric",
       "cat": false,
       "hobbies": ["Lord of the Rings", "DnD"]
-    },
-    {
-      "id": 3,
-      "gender": "male",
-      "name": { "title": "Mr", "first": "Malthe", "last": "Johansen" },
-      "location": {
-        "city": "Samsø"
-      },
-      "email": "malthe.johansen@example.com",
-      "dob": { "date": "1970-09-10T11:46:38.901Z", "age": 53 },
-      "registered": { "date": "2009-04-06T06:14:45.219Z", "age": 14 },
-      "picture": {
-        "large": "https://randomuser.me/api/portraits/men/11.jpg",
-        "medium": "https://randomuser.me/api/portraits/med/men/11.jpg",
-        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/11.jpg"
-      },
-      "nat": "DK"
     }
   ],
   "playSessions": [
